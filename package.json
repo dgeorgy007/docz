@@ -1,6 +1,7 @@
 {
   "name": "docz-better-typescript",
   "private": true,
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
     "name": "Pedro Nauck",
