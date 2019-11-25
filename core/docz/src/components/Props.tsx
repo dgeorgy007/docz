@@ -108,6 +108,7 @@ export const Props: SFC<PropsProps> = ({
 }) => {
   const components = useComponents()
   const { props: stateProps } = React.useContext(doczState.context)
+  console.log('stateProps >>>', stateProps);
   const PropsComponent = components.props
   const filename = get('__filemeta.filename', component)
   const filemetaName = get('__filemeta.name', component)
